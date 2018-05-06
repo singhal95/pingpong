@@ -1,0 +1,4 @@
+#Sat May 05 15:53:33 IST 2018
+base.0=C\:\\Users\\Nitin\\Desktop\\TableTennis-master-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+renamed.0=classes.dex
+file.0=C\:\\Users\\Nitin\\Desktop\\TableTennis-master-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex

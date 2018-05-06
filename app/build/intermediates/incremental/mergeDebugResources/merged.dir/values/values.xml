@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutClose">Close</string>
+    <string name="aboutText">Project Pig Pong</string>
+    <string name="aboutTitle">About</string>
+    <string name="app_name">Project Pig Pong</string>
+    <string name="connectError">Error connecting to:</string>
+    <string name="connectString">Connecting to:</string>
+    <string name="connectionLost">Connection lost.</string>
+    <string name="connectionLostClose">Close</string>
+    <string name="connectionProblem">Connection problem. (Different versions of the game?)</string>
+    <string name="difficultyChanged">Game difficulty will be apply in new game only.</string>
+    <string name="gameover">Game Over</string>
+    <string name="gameoverLeftWin">Left player wins!</string>
+    <string name="gameoverRightWin">Right player wins!</string>
+    <string name="gameoverYouLose">You lose!</string>
+    <string name="gameoverYouWin">You win!</string>
+    <string name="initError">Initialization error</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="menOptions">Options</string>
+    <string name="menuAbout">About</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuNewGame">New game</string>
+    <string name="menuPause">Paused by opponent</string>
+    <string name="menuResume">Resume</string>
+    <string name="ok">OK</string>
+    <string name="optionArcade">Single player - Arcade mode</string>
+    <string name="optionBtMulti">Bluetooth multiplayer</string>
+    <string name="optionDefaultTilt">Set device\'s orientation as zero tilt</string>
+    <string name="optionDifficulty">Difficulty:</string>
+    <string name="optionEasy">Easy</string>
+    <string name="optionHard">Hard</string>
+    <string name="optionInput">Control type:</string>
+    <string name="optionInputOnScreen">On-screen</string>
+    <string name="optionInputTilt">Tilt 1</string>
+    <string name="optionInputTilt2">Tilt 2</string>
+    <string name="optionInputTiltSens">Tilt sensitivity:</string>
+    <string name="optionNightmare">Impossible</string>
+    <string name="optionNormal">Normal</string>
+    <string name="optionPlayers">Players:</string>
+    <string name="optionPos">Player position:</string>
+    <string name="optionPosLan">Swap / get from opponent</string>
+    <string name="optionPosLeft">Left</string>
+    <string name="optionPosRight">Right</string>
+    <string name="optionPosSwap">Swap</string>
+    <string name="optionSingleplayer">Single player vs Android</string>
+    <string name="optionSound">Sound</string>
+    <string name="optionTwoPlayers">Two players</string>
+    <string name="optionVeryHard">Very Hard</string>
+    <string name="optionWiFiMulti">Wi-Fi Direct multiplayer</string>
+    <string name="playagain">Play again</string>
+    <string name="rateLater">Remind later</string>
+    <string name="rateNever">Never</string>
+    <string name="rateOk">Rate now!</string>
+    <string name="rateText">Like this game? Rate us, please.</string>
+    <string name="serverRun">Select remote device or wait for incoming connection.\nBluetooth visibility</string>
+    <string name="serverRun2">seconds left. Scanning devices...  \nThis device name:</string>
+    <string name="serverRun3">\nBluetooth error: incoming connection are not allowed. Try to reboot your device.</string>
+    <style name="CheckBox">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:button">@drawable/checkbox_border</item>
+		<item name="android:layout_margin">5dp</item>
+	</style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="DialogText">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MainMenuButton">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFD54F</item>
+		<item name="android:background">@drawable/main_menu_button_border</item>
+		<item name="android:layout_margin">5dp</item>
+	</style>
+    <style name="RadioButton">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:button">@drawable/radiobutton_border</item>
+		<item name="android:layout_margin">5dp</item>
+	</style>
+    <style name="SeekBar">
+	    <item name="android:progressDrawable">
+	       @drawable/seekbar_border
+	    </item>
+	    <item name="android:thumb">
+	       @drawable/seek_thumb
+	    </item>
+	</style>
+</resources>
